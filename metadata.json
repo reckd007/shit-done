@@ -1,0 +1,6 @@
+{
+  "name": "MedTrack",
+  "description": "Track your daily medicine intake, manage prescriptions, schedule dosage reminders, and stay on top of your health.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

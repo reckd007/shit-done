@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="pillGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-opacity="0.25" flood-color="#0f172a" />
+    </filter>
+  </defs>
+
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+
+  <!-- Soft inner glow ring -->
+  <rect x="16" y="16" width="480" height="480" rx="116" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" />
+
+  <!-- Floating Capsule Pill with shadow -->
+  <g transform="translate(256 256) rotate(-45) translate(-256 -256)" filter="url(#shadow)">
+    <!-- Pill Left Half (Sky Blue) -->
+    <path d="M 176 186 C 176 142 212 106 256 106 L 256 406 C 212 406 176 370 176 326 Z" fill="url(#pillGrad1)" />
+    
+    <!-- Pill Right Half (Clean White) -->
+    <path d="M 256 106 C 300 106 336 142 336 186 L 336 326 C 336 370 300 406 256 406 Z" fill="url(#pillGrad2)" />
+
+    <!-- Center divider seam -->
+    <line x1="256" y1="106" x2="256" y2="406" stroke="#0284c7" stroke-width="6" opacity="0.3" />
+
+    <!-- Gloss highlight on left -->
+    <path d="M 200 160 C 200 148 214 136 230 132 L 230 380 C 214 376 200 364 200 352 Z" fill="#ffffff" opacity="0.4" />
+  </g>
+
+  <!-- Medical Cross Badge in Bottom Right -->
+  <circle cx="376" cy="376" r="64" fill="#ffffff" filter="url(#shadow)" />
+  <rect x="364" y="336" width="24" height="80" rx="8" fill="#0284c7" />
+  <rect x="336" y="364" width="80" height="24" rx="8" fill="#0284c7" />
+
+  <!-- Small Notification Bell Dot at top right -->
+  <circle cx="396" cy="116" r="28" fill="#f59e0b" />
+  <circle cx="396" cy="116" r="16" fill="#fef3c7" />
+</svg>

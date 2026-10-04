@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MedTrack</string>
+    <string name="tagline">Medicine &amp; Pill Reminder</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Today</string>
+    <string name="nav_cabinet">Cabinet</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Actions -->
+    <string name="action_take">Take</string>
+    <string name="action_taken">Taken</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_skipped">Skipped</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_snooze">Snooze</string>
+    <string name="action_refill">Refill</string>
+    <string name="action_add_med">Add Medicine</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_pause">Pause Schedule</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_export_report">Doctor Report</string>
+    <string name="action_copy">Copy Report</string>
+    <string name="action_share">Share</string>
+
+    <!-- Today Screen -->
+    <string name="daily_intake">Daily Intake</string>
+    <string name="doses_taken_format">%1$d / %2$d Taken</string>
+    <string name="doses_remaining_format">%1$d doses remaining</string>
+    <string name="all_doses_completed">All doses for today completed! Great job!</string>
+    <string name="low_stock_warning">Low stock warning: %1$s is running low (%2$d %3$s left)</string>
+    <string name="empty_today_title">No medications scheduled today</string>
+    <string name="empty_today_subtitle">Add your first prescription or vitamin to get started.</string>
+    
+    <!-- Time Sections -->
+    <string name="time_morning">Morning</string>
+    <string name="time_morning_sub">06:00 – 12:00</string>
+    <string name="time_afternoon">Afternoon</string>
+    <string name="time_afternoon_sub">12:00 – 17:00</string>
+    <string name="time_evening">Evening</string>
+    <string name="time_evening_sub">17:00 – 21:00</string>
+    <string name="time_night">Night</string>
+    <string name="time_night_sub">21:00 – 06:00</string>
+
+    <!-- Cabinet Screen -->
+    <string name="cabinet_title">Medicine Cabinet</string>
+    <string name="prescriptions_count">%1$d prescriptions registered</string>
+    <string name="search_hint">Search medicines, dosage, doctor…</string>
+    <string name="stock_label">Stock:</string>
+    <string name="stock_low">Low</string>
+    <string name="paused_badge">Paused</string>
+
+    <!-- History / Insights Screen -->
+    <string name="history_title">Adherence &amp; History</string>
+    <string name="history_subtitle">Track your long-term consistency</string>
+    <string name="metric_streak">Day Streak</string>
+    <string name="metric_adherence">Adherence</string>
+    <string name="metric_total_taken">Doses Taken</string>
+    <string name="weekly_trend">7-Day Consistency</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="filter_all">All</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Reminders &amp; Settings</string>
+    <string name="settings_subtitle">Notification preferences &amp; appearance</string>
+    <string name="pref_language">Language</string>
+    <string name="pref_theme">Appearance</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="pref_sound">Audio Chime</string>
+    <string name="pref_sound_desc">Play sound for dose reminders</string>
+    <string name="pref_vibration">Tactile Vibration</string>
+    <string name="pref_vibration_desc">Vibrate device on reminder notification</string>
+    <string name="pref_snooze">Snooze Duration</string>
+    <string name="test_reminder_title">Test Dose Reminder</string>
+    <string name="test_reminder_desc">Preview an instant in-app notification prompt</string>
+    <string name="action_send_test">Send Test</string>
+    <string name="active_triggers">Active Triggers</string>
+</resources>
